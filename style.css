@@ -525,9 +525,8 @@ input {
 }
 
 #listSection {
-  border-right: 3px solid var(--greenColor);
   padding-right: 24px;
-  flex-basis: 15%;
+  flex-wrap: wrap;
 }
 
 input[type="radio"] {
@@ -568,7 +567,6 @@ label {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  padding-right: 24px;
 }
 
 .menuCategory:hover {
@@ -582,7 +580,6 @@ label {
   padding: 12px 6px;
   border-radius: 4px;
   cursor: pointer;
-  padding-right: 24px;
 }
 
 a{
@@ -634,11 +631,19 @@ a{
 
 .itemContainer {
   flex: 1;
-  row-gap: 2px !important;
+  row-gap: 12px !important;
   column-gap: 36px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: start;
+}
+
+#mapBox iframe{
+  width: 100%;
+}
+
+#categoryBox{
+  flex-wrap: wrap;
 }
 
 
@@ -658,5 +663,39 @@ a{
 
   .imageBox {
     height: 100%;
+  }
+
+  .small{
+    font-size: 12px;
+  }
+  .medium{
+    font-size: 24px;
+  }
+  .large{
+    font-size: 36px;
+  }
+  .fs-24px{
+    font-size: 18px;
+  }
+  .mobilecolumn{
+    flex-direction: column;
+  }
+  .numberBox .large{
+    font-size: 27px;
+  }
+  .numberBox .medium{
+    font-size: 18px;
+  }
+  #noContainer{
+    gap: 36px;
+  }
+  #serviceCardContainer{
+    gap: 36px;
+  }
+  .serviceCard{
+    width: 90%;
+  }
+  .itemContainer{
+    justify-content: center;
   }
 }

@@ -250,8 +250,8 @@
           </div>
         </div>
       </div>
-      <div id="aboutUs" class="section flex row justify-space-between gap-60px">
-        <div id="imageContainer" class="flex row gap-36px justify-center">
+      <div id="aboutUs" class="section flex row justify-space-between gap-60px mobilecolumn">
+        <div id="imageContainer" class="flex row gap-36px justify-center noMobile">
           <div class="imageBox" id="imageBox1"></div>
           <div class="imageBox" id="imageBox2"></div>
         </div>
@@ -433,7 +433,7 @@
           lighting, floral décor, stage setup, and full event planning — making
           us your one-stop destination for hassle-free celebrations.
         </p>
-        <div id="serviceCardContainer" class="flex row justify-space-around">
+        <div id="serviceCardContainer" class="flex row justify-space-around mobilecolumn">
           <div class="serviceCard flex column gap-12px">
             <div id="topImageBox">
               <img src="./Assets/OtherImages/SVG_Buffet.svg" alt="" />
@@ -476,7 +476,7 @@
         <img src="./Assets/OtherImages/PNG_Gallery_Collage.png" alt="" />
       </div>
       <div id="testimonials" class="flex column gap-24px">
-        <div class="titleSection flex row vcenter justify-space-between">
+        <div class="titleSection flex row vcenter justify-space-between mobilecolumn">
           <p class="playfair large">Testimonaials</p>
           <p class="medium">What Our Happy Clients Say About Us</p>
         </div>
@@ -574,7 +574,7 @@
           </div>
         </div>
       </div>
-      <div class="section flex row gap-36px" id="contact">
+      <div class="section flex row gap-36px mobilecolumn" id="contact">
         <div class="flex column gap-12px">
           <p class="large playfair">Contact Us</p>
           <p class="medium">Reach Out. We're Just a Form Away.</p>
@@ -603,11 +603,20 @@
             </div>
           </form>
         </div>
-        <div id="separator" class="flex column both-center">
+        <div id="separator" class="flex column both-center noMobile">
           <img src="./Assets/OtherImages/SVG_Separator.svg" alt="" />
         </div>
         <div id="contactRight" class="flex column gap-24px">
-          <div id="mapBox" class="flex"></div>
+          <div id="mapBox" class="flex">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.918643465855!2d87.2142961!3d24.832455700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0f532568112d7%3A0x253ffe10b9a52274!2sChanani%20Caterers!5e0!3m2!1sen!2sin!4v1751464723358!5m2!1sen!2sin"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
           <div id="adressbox" class="flex column gap-12px">
             <p class="small">
               <a href="https://g.co/kgs/c5fX7y6">
@@ -699,10 +708,7 @@
           smoothScrollTo(targetY, 600);
         }
       }
-      const greetings = [
-        "नमस्ते", // Hindi
-        "Hello", // Urdu greeting
-      ];
+      const greetings = ["नमस्ते", "Hello"];
 
       const greetingElement = document.getElementById("greeting");
       let greetingIndex = 0;
