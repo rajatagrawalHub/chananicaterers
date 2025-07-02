@@ -207,7 +207,7 @@ body {
 }
 
 .noMobile {
-  display: block;
+  display: flex;
 }
 
 .Mobile {
@@ -660,16 +660,11 @@ a{
   .noMobile {
     display: none;
   }
-
-  .imageBox {
-    height: 100%;
-  }
-
   .small{
     font-size: 12px;
   }
   .medium{
-    font-size: 21px;
+    font-size: 16px;
   }
   .large{
     font-size: 36px;
