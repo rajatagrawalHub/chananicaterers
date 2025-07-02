@@ -584,6 +584,12 @@ label {
   padding-right: 24px;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
 .itemCard {
   width: 135px;
   border-top-left-radius: 12px;
