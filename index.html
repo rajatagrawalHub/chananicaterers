@@ -596,19 +596,29 @@
             <div id="form" class="flex column gap-18px">
               <div class="inputBox flex column gap-12px">
                 <p class="medium">Name</p>
-                <input type="text" />
+                <input type="text" name="name" required />
               </div>
               <div class="inputBox flex column gap-12px">
                 <p class="medium">Contact Number</p>
-                <input type="tel" minlength="10" maxlength="10" />
+                <input
+                  type="tel"
+                  name="contact"
+                  minlength="10"
+                  maxlength="10"
+                  required
+                />
               </div>
               <div class="inputBox flex column gap-12px">
                 <p class="medium">Email ID</p>
-                <input type="email" />
+                <input type="email" name="email" required />
               </div>
-              <button class="btn darkBtn fullBtn">Request a Callback</button>
+
+              <button type="submit" class="btn darkBtn fullBtn">
+                Request a Callback
+              </button>
+
               <button
-                type="submit"
+                type="button"
                 class="btn lightBtn fullBtn darkBorder flex row both-center gap-12px"
                 onclick="window.open('https://wa.me/918862963188','_blank')"
               >
