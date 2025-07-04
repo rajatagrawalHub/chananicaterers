@@ -582,7 +582,7 @@ label {
   cursor: pointer;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   font-size: 18px;
@@ -603,16 +603,496 @@ a{
   border: 1px solid var(--greenColor);
 }
 
-.itemCard:nth-child(odd) .itemImage {
-  background: url(./Assets/MenuItems/SVG_Kachori.svg);
-  background-size: cover;
+#kachori .itemCard:nth-of-type(1) .itemImage {
+  background: url(./Assets/MenuItems/Images/RADHA\ VALLABHI.jpg);
   background-position: center center;
+  background-size: cover;
 }
 
-.itemCard:nth-child(even) .itemImage {
-  background: url(./Assets/MenuItems/SVG_Paneer.svg);
-  background-size: cover;
+#kachori .itemCard:nth-of-type(2) .itemImage {
+  background: url(./Assets/MenuItems/Images/SATTU\ KACHORI.jpg);
   background-position: center center;
+  background-size: cover;
+}
+
+#kachori .itemCard:nth-of-type(3) .itemImage {
+  background: url(./Assets/MenuItems/Images/DAL\ KACHORI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#kachori .itemCard:nth-of-type(4) .itemImage {
+  background: url(./Assets/MenuItems/Images/CLUB\ KACHORI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#kachori .itemCard:nth-of-type(5) .itemImage {
+  background: url(./Assets/MenuItems/Images/MASALA\ KACHORI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#kachori .itemCard:nth-of-type(6) .itemImage {
+  background: url(./Assets/MenuItems/Images/BEDMI\ PURI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#kachori .itemCard:nth-of-type(7) .itemImage {
+  background: url(./Assets/MenuItems/Images/LUCCHI\ PURI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#roti .itemCard:nth-of-type(1) .itemImage {
+  background: url(./Assets/MenuItems/Images/TAWA\ ROTI.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#roti .itemCard:nth-of-type(2) .itemImage {
+  background: url(./Assets/MenuItems/Images/MISSI\ ROTI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(3) .itemImage {
+  background: url(./Assets/MenuItems/Images/PLAIN\ PARATHA.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(4) .itemImage {
+  background: url(./Assets/MenuItems/Images/ALOO\ \ PARATHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(5) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ PARATHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(6) .itemImage {
+  background: url(./Assets/MenuItems/Images/SATTU\ PARATHA.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(7) .itemImage {
+  background: url(./Assets/MenuItems/Images/GOBHI\ PARATHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(8) .itemImage {
+  background: url(./Assets/MenuItems/Images/VEG\ PARATHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(9) .itemImage {
+  background: url(./Assets/MenuItems/Images/ONION\ PARATHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(10) .itemImage {
+  background: url(./Assets/MenuItems/Images/BAJRA\ ROTI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(11) .itemImage {
+  background: url(./Assets/MenuItems/Images/MAKKA\ ROTI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#roti .itemCard:nth-of-type(12) .itemImage {
+  background: url(./Assets/MenuItems/Images/PURAN\ POLI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#tandooritems .itemCard:nth-of-type(1) .itemImage {
+  background: url(./Assets/MenuItems/Images/TANDOORI\ ROTI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#tandooritems .itemCard:nth-of-type(2) .itemImage {
+  background: url(./Assets/MenuItems/Images/TANDOORI\ MISSI\ ROTI.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+#tandooritems .itemCard:nth-of-type(3) .itemImage {
+  background: url(./Assets/MenuItems/Images/BUTTER\ NAAN.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#tandooritems .itemCard:nth-of-type(4) .itemImage {
+  background: url(./Assets/MenuItems/Images/MASALA\ KULCHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#tandooritems .itemCard:nth-of-type(5) .itemImage {
+  background: url(./Assets/MenuItems/Images/ONION\ KULCHA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#tandooritems .itemCard:nth-of-type(6) .itemImage {
+  background: url(./Assets/MenuItems/Images/AMRITSARI\ CHUR-CHUR\ NAAN.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#rice .itemCard:nth-of-type(1) .itemImage {
+  background: url(./Assets/MenuItems/Images/PLAIN\ RICE.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#rice .itemCard:nth-of-type(2) .itemImage {
+  background: url(./Assets/MenuItems/Images/VEG\ PULAO.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#rice .itemCard:nth-of-type(3) .itemImage {
+  background: url(./Assets/MenuItems/Images/JEERA\ RICE.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#rice .itemCard:nth-of-type(4) .itemImage {
+  background: url(./Assets/MenuItems/Images/NAVRATNA\ PULAO.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#rice .itemCard:nth-of-type(5) .itemImage {
+  background: url(./Assets/MenuItems/Images/VEG\ BIRYANI.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#paneergravy .itemCard:nth-of-type(1) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ DO\ PYAJA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(2) .itemImage {
+  background: url(./Assets/MenuItems/Images/PALAK\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(3) .itemImage {
+  background: url(./Assets/MenuItems/Images/MATAR\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(4) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ BUTTER\ MASALA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(5) .itemImage {
+  background: url(./Assets/MenuItems/Images/SHAHI\ PANNER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(6) .itemImage {
+  background: url(./Assets/MenuItems/Images/KADHAI\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(7) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ 65.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(8) .itemImage {
+  background: url(./Assets/MenuItems/Images/HYDERABADI\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(9) .itemImage {
+  background: url(./Assets/MenuItems/Images/KASHMIRI\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(10) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ LABABDAR.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(11) .itemImage {
+  background: url(./Assets/MenuItems/Images/PANEER\ PASANDA.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#paneergravy .itemCard:nth-of-type(12) .itemImage {
+  background: url(./Assets/MenuItems/Images/DRAGON\ PANEER.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.itemImage {
+  background-position: center center;
+  background-size: cover;
+}
+
+#alooitems .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/JEERA%20ALOO.jpg");
+}
+#alooitems .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ACHARI%20ALOO.jpg");
+}
+#alooitems .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO%20DO%20PYAJA.jpg");
+}
+#alooitems .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO%20JHALDAR.jpg");
+}
+#alooitems .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/KASHMIRI%20ALOO%20DUM.jpg");
+}
+#alooitems .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BANARASI%20ALOO%20DUM.jpg");
+}
+#alooitems .itemCard:nth-of-type(7) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BABY%20ALOO%20DUM.jpg");
+}
+#alooitems .itemCard:nth-of-type(8) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO%20FULGOBHI.jpg");
+}
+#alooitems .itemCard:nth-of-type(9) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO%20METHI.jpg");
+}
+
+#kofta .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/METHI%20MALAI%20MATAR.jpg");
+}
+#kofta .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/NAVRATNA%20KORMA.jpg");
+}
+#kofta .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VEG%20KOFTA.jpg");
+}
+#kofta .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MALAI%20KOFTA.jpg");
+}
+#kofta .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/LOCKEY%20KOFTA.jpg");
+}
+
+#drysabji .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BHINDI%20MASALA.jpg");
+}
+#drysabji .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PARWAL%20MASALA.jpg");
+}
+#drysabji .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/FULGOBHI%20MATAR.jpg");
+}
+#drysabji .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PATTA\ GOBHI\ MATAR.jpg");
+}
+#drysabji .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BHINDI\ DO\ PYAJAA.jpg");
+}
+
+#dal .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/YELLOW%20DAL.jpg");
+}
+#dal .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DAL%20FRY.jpg");
+}
+#dal .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DAL%20MAKHANI.jpg");
+}
+#dal .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/CHANA%20DAL%20TADKA.jpg");
+}
+#dal .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PUNJABI%20TADKA.jpg");
+}
+#dal .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/JODHPURI%20DAL%20CHANGEZI.jpg");
+}
+
+#kadhi .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PAKODI%20KADHI.jpg");
+}
+#kadhi .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MANGODI%20KADHI.jpg");
+}
+#kadhi .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/RASGULLA\ KADHI.jpeg");
+}
+#kadhi .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/FOGLA%20KADHI.jpg");
+}
+
+#southindian .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PLAIN%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MASALA%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ONION%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MYSORE%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PANEER%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/RAWA%20DOSA.jpg");
+}
+#southindian .itemCard:nth-of-type(7) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/IDLI.jpg");
+}
+#southindian .itemCard:nth-of-type(8) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MINI%20IDLI.jpg");
+}
+#southindian .itemCard:nth-of-type(9) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/FRIED\ IDLI\ .jpg");
+}
+#southindian .itemCard:nth-of-type(10) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MEDU%20VADA.jpg");
+}
+#southindian .itemCard:nth-of-type(11) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/UPMA.jpg");
+}
+#southindian .itemCard:nth-of-type(12) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VEG%20UTTAPAM.jpg");
+}
+#southindian .itemCard:nth-of-type(13) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ONION%20UTTAPAM.jpg");
+}
+
+#chaat .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO\ TIKKI\ CHHOLA\ CHAAT.jpg");
+}
+#chaat .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DELHI ALOO TIKKI CHAAT.jpg");
+}
+#chaat .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PAPDI\ CHHOLA\ CHAAT.jpg");
+}
+#chaat .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DAHI BHALLA PAPDI CHAAT.jpg");
+}
+#chaat .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MOTH\ KACHORI\ CHAAT\ .jpg");
+}
+#chaat .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/RAJ\ KACHORI\ CHAAT\ .jpg");
+}
+#chaat .itemCard:nth-of-type(7) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SAMOSA\ CHAAT\ .jpg");
+}
+#chaat .itemCard:nth-of-type(8) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/KADHI KACHORI.jpg");
+}
+#chaat .itemCard:nth-of-type(9) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BANARASI\ ALOO\ CHAAAT.jpg");
+}
+#chaat .itemCard:nth-of-type(10) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BANARASI TOMATO CHAAT.jpg");
+}
+
+#snack .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DAHI BHALLA.jpg");
+}
+#snack .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DAHI BADA.jpg");
+}
+#snack .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/KANJI BADA.jpg");
+}
+#snack .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/GUJIA BADA.jpg");
+}
+#snack .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PANIPURI.jpg");
+}
+#snack .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SEVPURI.jpg");
+}
+#snack .itemCard:nth-of-type(7) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BATATA\ PURI.jpg");
+}
+#snack .itemCard:nth-of-type(8) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BHELPURI.jpg");
+}
+#snack .itemCard:nth-of-type(9) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PANEER CHILLA ROLL.jpg");
+}
+#snack .itemCard:nth-of-type(10) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PANEER TIKKA.jpg");
+}
+#snack .itemCard:nth-of-type(11) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SAMOSA.jpg");
+}
+#snack .itemCard:nth-of-type(12) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VEG CUTLET.jpg");
+}
+#snack .itemCard:nth-of-type(13) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/JHAL BADA.jpg");
+}
+#snack .itemCard:nth-of-type(14) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ALOO\ CHUP.jpg");
+}
+#snack .itemCard:nth-of-type(15) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VEG PAKODA.jpg");
+}
+#snack .itemCard:nth-of-type(16) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/ONION PAKODA.jpg");
+}
+#snack .itemCard:nth-of-type(17) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VADA PAW.jpg");
+}
+#snack .itemCard:nth-of-type(18) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PAV\ BHAJI.jpg");
+}
+#snack .itemCard:nth-of-type(19) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/DHOKLA.jpg");
+}
+#snack .itemCard:nth-of-type(20) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/KHANDWI.jpg");
+}
+#snack .itemCard:nth-of-type(21) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/LITTI CHOKHA.jpg");
+}
+
+#continentalsnacks .itemCard:nth-of-type(1) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/HAKKA NOODLES.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(2) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/VEG MANCHURIAN.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(3) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PANEER CHILLY.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(4) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/MOMOS.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(5) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/BURGER.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(6) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PIZZA.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(7) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/PASTA.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(8) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SWEET CORN CHAAT.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(9) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SPRING ROLL.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(10) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/FRENCH FRIES.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(11) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/SANDWICH.jpg");
+}
+#continentalsnacks .itemCard:nth-of-type(12) .itemImage {
+  background-image: url("./Assets/MenuItems/Images/HONEY CHILLI POTATO.jpg");
 }
 
 .itemTitleContianer {
@@ -638,14 +1118,13 @@ a{
   align-items: start;
 }
 
-#mapBox iframe{
+#mapBox iframe {
   width: 100%;
 }
 
-#categoryBox{
+#categoryBox {
   flex-wrap: wrap;
 }
-
 
 @keyframes scrollLeft {
   0% {
@@ -660,37 +1139,58 @@ a{
   .noMobile {
     display: none;
   }
-  .small{
+  .small {
     font-size: 12px;
   }
-  .medium{
+  .medium {
     font-size: 16px;
   }
-  .large{
+  .large {
     font-size: 36px;
   }
-  .fs-24px{
+  .fs-24px {
     font-size: 18px;
   }
-  .mobilecolumn{
+  .mobilecolumn {
     flex-direction: column;
   }
-  .numberBox .large{
+  .numberBox .large {
     font-size: 27px;
   }
-  .numberBox .medium{
+  .numberBox .medium {
     font-size: 18px;
   }
-  #noContainer{
+  #noContainer {
     gap: 36px;
   }
-  #serviceCardContainer{
+  #serviceCardContainer {
     gap: 36px;
   }
-  .serviceCard{
+  .serviceCard {
     width: 90%;
   }
-  .itemContainer{
+  .itemContainer {
     justify-content: center;
+  }
+
+  .menuCategory,
+  .menuCategoryActive {
+    font-size: 14px;
+  }
+
+  #categoryBox {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .itemCard{
+    width: 100px;
+  }
+  .itemImage{
+    height: 75px;
+  }
+
+  .itemCard .medium{
+    font-size: 10px;
   }
 }
